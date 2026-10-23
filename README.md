@@ -1,4 +1,4 @@
-# AI Document Summarizer
+# Python Document Summarizer with Text-to-Speech
 A Python desktop application that automatically summarizes 
 documents using the LexRank NLP algorithm. Supports multiple 
 file formats with export and text-to-speech capabilities.
