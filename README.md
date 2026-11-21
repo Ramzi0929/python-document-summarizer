@@ -28,7 +28,7 @@ git clone https://github.com/Ramzi0929/ai-document-summarizer
 pip install sumy pdfminer.six python-docx reportlab pyttsx3
 
 3. Run the app:
-python gui.py
+python summarizer_gui.py
 
 ## Project Structure
 - `summarizer_gui.py` — Desktop interface and user interaction
