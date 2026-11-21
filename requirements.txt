@@ -1,0 +1,5 @@
+sumy
+pdfminer.six
+python-docx
+reportlab
+pyttsx3
