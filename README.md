@@ -5,8 +5,7 @@ file formats with export and text-to-speech capabilities.
 
 ## Features
 - Upload TXT, PDF, or DOCX files
-- AI-powered summarization using LexRank algorithm
-- Dynamic summary length based on document size
+- Extractive text summarization- Dynamic summary length based on document size
 - Export summary as PDF or DOCX
 - Text-to-speech playback of summary
 - Clean and simple desktop GUI
