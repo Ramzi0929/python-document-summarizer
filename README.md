@@ -32,8 +32,7 @@ python gui.py
 
 ## Project Structure
 - `summarizer_gui.py` — Desktop interface and user interaction
-- `summarizer_main.py` — Core summarization, file reading, 
-   and export logic
+- `summarizer_main.py` — Core summarization, file reading, and export logic
 
 ## Author
 Ramzi Mohammed
