@@ -1,11 +1,11 @@
 # Python Document Summarizer with Text-to-Speech
-A Python desktop application that automatically summarizes 
-documents using the LexRank NLP algorithm. Supports multiple 
-file formats with export and text-to-speech capabilities.
+
+A Python desktop application that automatically summarizes documents using the LexRank NLP algorithm. Supports multiple file formats with export and text-to-speech capabilities.
 
 ## Features
 - Upload TXT, PDF, or DOCX files
-- Extractive text summarization- Dynamic summary length based on document size
+- Extractive text summarization
+- Dynamic summary length based on document size
 - Export summary as PDF or DOCX
 - Text-to-speech playback of summary
 - Clean and simple desktop GUI
@@ -13,22 +13,28 @@ file formats with export and text-to-speech capabilities.
 ## Tech Stack
 - Python
 - Tkinter (GUI)
-- Sumy / LexRank (NLP Summarization)
-- pdfminer (PDF reading)
+- Sumy / LexRank (Extractive NLP Summarization)
+- pdfminer.six (PDF reading)
 - python-docx (DOCX reading & export)
 - ReportLab (PDF export)
 - pyttsx3 (Text-to-speech)
 
 ## How to Run
 
-1. Clone the repository:
-git clone https://github.com/Ramzi0929/ai-document-summarizer
+**1. Clone the repository:**
+```bash
+git clone https://github.com/Ramzi0929/ai-document-summarizer.git
+```
 
-2. Install dependencies:
+**2. Install dependencies:**
+```bash
 pip install sumy pdfminer.six python-docx reportlab pyttsx3
+```
 
-3. Run the app:
+**3. Run the app:**
+```bash
 python summarizer_gui.py
+```
 
 ## Project Structure
 - `summarizer_gui.py` — Desktop interface and user interaction
