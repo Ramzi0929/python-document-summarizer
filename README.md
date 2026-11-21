@@ -31,7 +31,7 @@ pip install sumy pdfminer.six python-docx reportlab pyttsx3
 python gui.py
 
 ## Project Structure
-- `gui.py` — Desktop interface and user interaction
+- `summarizer_gui.py` — Desktop interface and user interaction
 - `summarizer_main.py` — Core summarization, file reading, 
    and export logic
 
